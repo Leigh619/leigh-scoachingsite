@@ -59,13 +59,13 @@ body {
   background-color: 1A1A1A;
   colour: #FFFFFF;
 }
-
 .navbar {
   background-color: #1F1F1F;
   padding: 15px;
   display: flex;
   gap: 20px;
   border-bottom: 2px solid #D46A1F;
+  align-items: center; /* ← THIS fixes the dropdown alignment */
 }
 
 .navbar a {
@@ -82,7 +82,7 @@ body {
 /* Container for dropdown */
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: inline-block; /* ← This is correct */
 }
 
 /* Hidden submenu */
