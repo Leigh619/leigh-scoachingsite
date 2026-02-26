@@ -78,3 +78,36 @@ body {
 .navbar a:hover {
   color: #F2B632;
 }
+
+/* Container for dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden submenu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Submenu links */
+.dropdown-content a {
+  color: white;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show submenu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Optional: highlight submenu items on hover */
+.dropdown-content a:hover {
+  background-color: #444;
+}
