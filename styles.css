@@ -60,6 +60,11 @@ body {
   gap: 20px;
   border-bottom: 2px solid #4CAF50; 
   align-items: center; /* ← THIS fixes the dropdown alignment */
+  width: 100%;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar a {
