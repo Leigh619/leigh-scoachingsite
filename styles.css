@@ -32,14 +32,13 @@ h2::after {
   display: block;
   width: 60px;
   height: 4px;
-  background: #4CAF50;
+
   margin-top: 0.5rem;
   border-radius: 2px;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #333;
 }
 p {
   line-height: 1.6;
@@ -53,11 +52,6 @@ ul {
 body {
   background-color: #1A1A1A;
   color: #FFFFFF;
-}
-
-body {
-  background-color: 1A1A1A;
-  colour: #FFFFFF;
 }
 .navbar {
   background-color: #1F1F1F;
