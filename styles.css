@@ -111,7 +111,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.content {
+.page-content {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
