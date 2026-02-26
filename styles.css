@@ -45,7 +45,8 @@ p {
 }
 
 ul {
-  margin-left: 20px;
+  margin-left: 0;
+  padding-left: 20px;
 }
 
 body {
