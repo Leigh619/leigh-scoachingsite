@@ -126,7 +126,8 @@ body {
 }
 
 .energystorage-image {
-  width: 350px;        /* increase this number to make it larger */
+  width: 350px; /* increase this number to make it larger */
+  height: 500px;
   max-width: 100%;
   display: block;      /* keeps spacing clean */
   margin: 0;           /* removes centring */
@@ -135,7 +136,8 @@ body {
 }
 
 .mTOR {
-  width: 350px;        /* increase this number to make it larger */
+  width: 400px;        /* increase this number to make it larger */
+  height: 500px;
   max-width: 100%;
   display: block;      /* keeps spacing clean */
   margin: 0;           /* removes centring */
