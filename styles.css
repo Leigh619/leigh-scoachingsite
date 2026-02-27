@@ -126,6 +126,10 @@ body {
 }
 
 .energystorage-image {
+  width: 220px;          /* smaller than before */
+  max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;        /* keeps it centred */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
