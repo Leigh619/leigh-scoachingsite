@@ -127,7 +127,7 @@ body {
   padding: 20px;
 }
 
-.energystorage-image
+.energystorage-image,
 .Proteinsynthesis,
 .Amino-acids,
 .mTOR {
@@ -135,6 +135,6 @@ body {
   max-width: 500px;
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
