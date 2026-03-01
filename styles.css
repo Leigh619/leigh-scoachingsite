@@ -120,7 +120,7 @@ body {
   align-items: center;
 }
 .page-content {
-  max-width: 900px;
+  max-width: 80%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -128,7 +128,7 @@ body {
 .energystorage-image {
   width: 350px; /* increase this number to make it larger */
   height: 300px;
-  max-width: 100%;
+  max-width: 80%;
   display: block;      /* keeps spacing clean */
   margin: 0;           /* removes centring */
   border-radius: 8px;
@@ -138,7 +138,7 @@ body {
 .mTOR {
   width: 400px;        /* increase this number to make it larger */
   height: 300px;
-  max-width: 100%;
+  max-width: 80%;
   display: block;      /* keeps spacing clean */
   margin: 0;           /* removes centring */
   border-radius: 8px;
