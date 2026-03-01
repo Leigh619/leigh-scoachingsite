@@ -127,39 +127,14 @@ body {
   padding: 20px;
 }
 
-.energystorage-image {
-  width: 350px; /* increase this number to make it larger */
-  height: 300px;
-  max-width: 80%;
-  display: block;      /* keeps spacing clean */
-  margin: 0;           /* removes centring */
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+.energystorage-image
+.Proteinsynthesis,
+.Amino-acids,
+.mTOR {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
 
-.mTOR {
-  width: 400px;        /* increase this number to make it larger */
-  height: 300px;
-  max-width: 80%;
-  display: block;      /* keeps spacing clean */
-  margin: 0;           /* removes centring */
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
-  .Proteinsynthesis {
-  width: 400px;        /* increase this number to make it larger */
-  height: 300px;
-  max-width: 80%;
-  display: block;      /* keeps spacing clean */
-  margin: 0;           /* removes centring */
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
-  .Amino-acids {
-  width: 400px;        /* increase this number to make it larger */
-  height: 300px;
-  max-width: 80%;
-  display: block;      /* keeps spacing clean */
-  margin: 0;           /* removes centring */
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
