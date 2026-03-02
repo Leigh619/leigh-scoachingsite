@@ -146,3 +146,9 @@ ul {
   display: block;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #4CAF50;
+  text-decoration-thickness: 2px;
+}
+
