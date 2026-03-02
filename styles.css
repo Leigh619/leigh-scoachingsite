@@ -139,7 +139,9 @@ ul {
 .energystorage-image,
 .Proteinsynthesis,
 .Amino-acids,
-.mTOR {
+.mTOR,
+.Protein-Sources,
+{
   width: 100%;
   max-width: 500px;
   height: 300px;
