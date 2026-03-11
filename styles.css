@@ -142,9 +142,10 @@ ul {
 .Amino-acids,
 .Fat-storage,
 .mTOR,
-.Protein-Sources
-.Glycemic-index
-.Carb-digestion{
+.Protein-Sources,
+.Glycemic-index,
+.Carb-digestion,
+{
   width: 100%;
   max-width: 500px;
   height: 300px;
