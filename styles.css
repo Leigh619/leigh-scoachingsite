@@ -159,3 +159,45 @@ ul {
   font-size: 21px;
 }
 
+.energy-expenditure {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+.energy-expenditure h2 {
+  color: #4CAF50;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.energy-expenditure .component {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #fff;
+  border-left: 4px solid #4CAF50;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.energy-expenditure h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.energy-expenditure p {
+  margin: 0;
+  color: #555;
+}
+
+.summary {
+  background: #f1fdf1;
+  border-left: 4px solid #4CAF50;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 6px;
+}
