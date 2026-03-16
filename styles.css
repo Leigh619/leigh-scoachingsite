@@ -187,10 +187,10 @@ ul {
 }
 
 .summary {
-  background: ##0e0e0e;
+  background: rgba(76, 175, 80, 0.15); /* soft green tint */
   border-left: 4px solid #4CAF50;
   padding: 1rem;
   margin: 2rem 0;
   border-radius: 6px;
-  color: #333;
+  color:  #F2F2F2;
 }
