@@ -264,18 +264,74 @@ ul {
 }
 
 /* Carb breakdown boxes */
-.carb-box {
-  padding: 1rem;
-  border-radius: 6px;
+.carb-chart {
+  max-width: 800px;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #141414;
+  border-radius: 8px;
+  border-left: 4px solid #4CAF50;
+  font-family: 'Inter', sans-serif;
+}
+
+.carb-chart h2 {
+  text-align: center;
+  color: #4CAF50;
   margin-bottom: 1.5rem;
 }
 
-.carb-box.good {
+.carb-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.carb-label {
+  min-width: 180px;
+  font-size: 0.95rem;
+}
+
+.carb-bar {
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+/* The green bar (85–90%) */
+.carb-bar-main::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 88%; /* controls bar fill */
+  background: #4CAF50;
+  border-radius: inherit;
+}
+
+/* The amber bar (10–15%) */
+.carb-bar-minor::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 12%; /* controls bar fill */
+  background: #F2B632;
+  border-radius: inherit;
+}
+
+.carb-box {
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.25rem;
+}
+
+.good-carbs {
   background: rgba(76, 175, 80, 0.10);
   border-left: 4px solid #4CAF50;
 }
 
-.carb-box.limit {
+.limit-carbs {
   background: rgba(242, 182, 50, 0.10);
   border-left: 4px solid #F2B632;
 }
