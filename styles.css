@@ -157,6 +157,7 @@ ul {
   padding: 2rem;
   background: ##0e0e0e;
   border-radius: 8px;
+  align-self: flex-start;
   font-family: 'Inter', sans-serif;
 }
 
