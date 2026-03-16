@@ -118,7 +118,7 @@ ul {
   width: 80%;
   display: flex;
   flex-direction: column;
-  align-items: left;  /* center children horizontally */
+  align-items: flex-start;  /* center children horizontally */
   gap: 20px;            /* spacing between elements */
 }
 
