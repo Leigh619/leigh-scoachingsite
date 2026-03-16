@@ -171,20 +171,22 @@ ul {
 .energy-expenditure .component {
   margin-bottom: 1.5rem;
   padding: 1rem;
-  background: #fff;
+  background: rgba(76, 175, 80, 0.12); /* on-brand green tint */
   border-left: 4px solid #4CAF50;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  color: #F2F2F2; /* readable text */
 }
 
 .energy-expenditure h3 {
   margin: 0 0 0.5rem;
   font-size: 1.25rem;
-  color: #333;
+  color: #4CAF50; /* consistent with your brand */
 }
+
 
 .energy-expenditure p {
   margin: 0;
-  color: #555;
+  color: #E0E0E0; /* softer than pure white */
 }
 
 .summary {
