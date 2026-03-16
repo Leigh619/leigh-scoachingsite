@@ -210,80 +210,82 @@ ul {
   color:  #F2F2F2;
 }
 
-  .carb-chart {
-  max-width: 800px;
-  margin: 2rem 0;
-  padding: 1.5rem;
-  background: #141414;
-  border-radius: 8px;
-  font-family: 'Inter', sans-serif;
-  color: #F2F2F2;
+.nutrition-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
-.carb-chart h2 {
-  color: #4CAF50;
+/* Shared container style */
+.gi-chart,
+.carb-breakdown {
+  background: #141414;
+  padding: 2rem;
+  border-radius: 10px;
+  border-left: 4px solid #4CAF50;
+}
+
+/* Headings */
+.gi-chart h2,
+.carb-breakdown h2 {
   text-align: center;
+  color: #4CAF50;
   margin-bottom: 1.5rem;
 }
 
-.carb-row {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
-}
-
-.carb-label {
-  min-width: 180px;
-  font-size: 0.95rem;
-}
-
-.carb-bar {
-  height: 12px;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.08);
-  position: relative;
-  overflow: hidden;
-}
-
-.carb-bar-main::before,
-.carb-bar-minor::before {
+.gi-chart h2::after,
+.carb-breakdown h2::after {
   content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-}
-
-.carb-bar-main {
-  flex: 0 0 70%;
-}
-.carb-bar-main::before {
-  width: 88%;
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin: 0.5rem auto 0;
   background: #4CAF50;
+  border-radius: 2px;
 }
 
-.carb-bar-minor {
-  flex: 0 0 30%;
-}
-.carb-bar-minor::before {
-  width: 12%;
-  background: #F2B632;
+/* GI grid layout */
+.gi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
+.gi-col h3 {
+  color: #F2B632;
+  margin-bottom: 0.5rem;
+}
+
+.gi-col p {
+  margin: 0.25rem 0;
+  color: #D8D8D8;
+}
+
+/* Carb breakdown boxes */
 .carb-box {
-  margin-bottom: 1.25rem;
   padding: 1rem;
   border-radius: 6px;
-  font-size: 0.95rem;
-  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
-.good-carbs {
+.carb-box.good {
   background: rgba(76, 175, 80, 0.10);
   border-left: 4px solid #4CAF50;
 }
 
-.limit-carbs {
+.carb-box.limit {
   background: rgba(242, 182, 50, 0.10);
   border-left: 4px solid #F2B632;
+}
+
+.carb-box h3 {
+  color: #4CAF50;
+  margin-bottom: 0.75rem;
+}
+
+.carb-box p {
+  color: #D8D8D8;
+  line-height: 1.5;
 }
