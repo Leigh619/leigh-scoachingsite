@@ -207,3 +207,81 @@ ul {
   border-radius: 6px;
   color:  #F2F2F2;
 }
+
+  .carb-chart {
+  max-width: 800px;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #141414;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  color: #F2F2F2;
+}
+
+.carb-chart h2 {
+  color: #4CAF50;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.carb-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.carb-label {
+  min-width: 180px;
+  font-size: 0.95rem;
+}
+
+.carb-bar {
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.carb-bar-main::before,
+.carb-bar-minor::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+.carb-bar-main {
+  flex: 0 0 70%;
+}
+.carb-bar-main::before {
+  width: 88%;
+  background: #4CAF50;
+}
+
+.carb-bar-minor {
+  flex: 0 0 30%;
+}
+.carb-bar-minor::before {
+  width: 12%;
+  background: #F2B632;
+}
+
+.carb-box {
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.good-carbs {
+  background: rgba(76, 175, 80, 0.10);
+  border-left: 4px solid #4CAF50;
+}
+
+.limit-carbs {
+  background: rgba(242, 182, 50, 0.10);
+  border-left: 4px solid #F2B632;
+}
