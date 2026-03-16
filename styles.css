@@ -155,7 +155,11 @@ ul {
   max-width: 700px;
   margin: 0;
   padding: 2rem;
-  background: #0e0e0e;
+  background: #.energy-expenditure {
+  max-width: 700px;
+  margin: 0;
+  padding: 2rem;
+  background: #141414;
   border-radius: 8px;
   align-self: flex-start;
   font-family: 'Inter', sans-serif;
@@ -168,13 +172,17 @@ ul {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+  
+  h2::after {
+  background: #4CAF50;
+}
 
 .energy-expenditure .component {
   margin-bottom: 1.5rem;
   padding: 1rem;
-  background: rgba(76, 175, 80, 0.12); /* on-brand green tint */
+  background: rgba(76, 175, 80, 0.10);
   border-left: 4px solid #4CAF50;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.35);
   color: #F2F2F2; /* readable text */
 }
 
@@ -187,8 +195,9 @@ ul {
 
 .energy-expenditure p {
   margin: 0;
-  color: #E0E0E0; /* softer than pure white */
+  color: #D8D8D8; /* softer than pure white */
 }
+
 
 .summary {
   background: rgba(76, 175, 80, 0.15); /* soft green tint */
