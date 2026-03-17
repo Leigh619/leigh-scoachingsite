@@ -114,13 +114,6 @@ ul {
   background-color: #444;
 }
 
-.container {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;  /* center children horizontally */
-  gap: 20px;            /* spacing between elements */
-}
 
 .page-content {
   max-width: 1400px;
@@ -174,7 +167,7 @@ ul {
 
 .col-text p {
   line-height: 1.6;
-  font-size: 22px
+  font-size: 22px;
   color: #FFFFFF;
 }
 
@@ -405,4 +398,12 @@ ul {
   color: #4CAF50;
   margin-bottom: 0.75rem;
   font-size: 1.2rem;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  /* center children horizontally */
+  gap: 20px;            /* spacing between elements */
 }
