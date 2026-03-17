@@ -269,7 +269,7 @@ ul {
 ============================ */
 .carb-chart {
   max-width: 800px;
-  margin: 2.5rem auto;
+  margin: 2.5rem 0 2.5rem 1rem;
   padding: 2rem;
   background: #141414;
   border-radius: 12px;
@@ -298,7 +298,8 @@ ul {
 
 .carb-label {
   min-width: 200px;
-  font-size: 1rem;
+  font-size: 1.15rem;
+  font-weight: 600;
   color: #ddd;
 }
 
