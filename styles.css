@@ -264,84 +264,96 @@ ul {
 }
 
 /* Carb breakdown boxes */
+/* ============================
+   CARB BREAKDOWN CONTAINER
+============================ */
 .carb-chart {
   max-width: 800px;
-  margin: 2rem 0;
-  padding: 1.5rem;
+  margin: 2.5rem auto;
+  padding: 2rem;
   background: #141414;
-  border-radius: 8px;
-  border-left: 4px solid #4CAF50;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
   font-family: 'Inter', sans-serif;
 }
 
+/* Title */
 .carb-chart h2 {
   text-align: center;
   color: #4CAF50;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
 }
 
+/* ============================
+   BAR ROWS
+============================ */
 .carb-row {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .carb-label {
-  min-width: 180px;
-  font-size: 0.95rem;
+  min-width: 200px;
+  font-size: 1rem;
+  color: #ddd;
 }
 
+/* Bar background */
 .carb-bar {
-  height: 12px;
+  flex: 1;
+  height: 14px;
   border-radius: 999px;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.06);
   position: relative;
   overflow: hidden;
 }
 
-/* The green bar (85–90%) */
+/* Main bar (85–90%) */
 .carb-bar-main::before {
   content: '';
   position: absolute;
   inset: 0;
-  width: 88%; /* controls bar fill */
+  width: 88%;
   background: #4CAF50;
   border-radius: inherit;
 }
 
-/* The amber bar (10–15%) */
+/* Minor bar (10–15%) */
 .carb-bar-minor::before {
   content: '';
   position: absolute;
   inset: 0;
-  width: 12%; /* controls bar fill */
+  width: 12%;
   background: #F2B632;
   border-radius: inherit;
 }
 
+/* ============================
+   CONTENT BOXES
+============================ */
 .carb-box {
-  padding: 1rem;
-  border-radius: 6px;
-  margin-bottom: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  line-height: 1.55;
 }
 
 .good-carbs {
-  background: rgba(76, 175, 80, 0.10);
+  background: rgba(76, 175, 80, 0.12);
   border-left: 4px solid #4CAF50;
 }
 
 .limit-carbs {
-  background: rgba(242, 182, 50, 0.10);
+  background: rgba(242, 182, 50, 0.12);
   border-left: 4px solid #F2B632;
 }
 
 .carb-box h3 {
   color: #4CAF50;
   margin-bottom: 0.75rem;
-}
-
-.carb-box p {
-  color: #D8D8D8;
-  line-height: 1.5;
+  font-size: 1.2rem;
 }
