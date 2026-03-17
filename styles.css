@@ -270,7 +270,7 @@ ul {
 .carb-chart {
   max-width: 800px;
   margin: 2.5rem 0 2.5rem 1rem;
-  padding: 2rem;
+  padding: 0.5rem;
   background: #141414;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.08);
