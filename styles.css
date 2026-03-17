@@ -151,6 +151,53 @@ ul {
   font-size: 21px;
 }
 
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.col-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.col-text h1, 
+.col-text h2, 
+.col-text h3 {
+  color: #333;
+}
+
+.col-text p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Reverse layout */
+.reverse {
+  direction: rtl;
+}
+.reverse > * {
+  direction: ltr;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
 .energy-expenditure {
   max-width: 700px;
   margin: 0;
