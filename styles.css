@@ -137,6 +137,7 @@ ul {
   display: block;
 }
 
+/* Underline styling */
 .underline {
   text-decoration: underline;
   text-decoration-color: #4CAF50;
@@ -144,6 +145,7 @@ ul {
   font-size: 28px;
 }
 
+/* Two-column layout */
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -152,6 +154,7 @@ ul {
   margin: 60px 0;
 }
 
+/* Image styling */
 .col-image img {
   width: 100%;
   height: auto;
@@ -159,8 +162,9 @@ ul {
   object-fit: cover;
 }
 
-.col-text h1, 
-.col-text h2, 
+/* Text styling */
+.col-text h1,
+.col-text h2,
 .col-text h3 {
   color: #4CAF50;
 }
@@ -177,18 +181,25 @@ ul {
   color: #aaa;
 }
 
-/* Reverse layout */
-.reverse {
-  direction: rtl;
-}
-.reverse > * {
-  direction: ltr;
+/* Reverse layout (desktop only) */
+.reverse .col-image {
+  order: 2;
 }
 
-/* Mobile */
+.reverse .col-text {
+  order: 1;
+}
+
+/* Mobile layout */
 @media (max-width: 768px) {
   .two-col {
     grid-template-columns: 1fr;
+  }
+
+  /* Reset ordering on mobile so content flows naturally */
+  .reverse .col-image,
+  .reverse .col-text {
+    order: unset;
   }
 }
 
