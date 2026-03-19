@@ -221,33 +221,34 @@ ul {
 }
 
 .energy-expenditure .component {
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  background: rgba(76, 175, 80, 0.10);
+ margin-bottom: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: rgba(76, 175, 80, 0.08);
   border-left: 4px solid #4CAF50;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.35);
-  color: #F2F2F2; /* readable text */
+  border-radius: 6px;
+  color: #F2F2F2;
+  box-shadow: none; /* cleaner */
 }
 
 .energy-expenditure h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
   color: #4CAF50; /* consistent with your brand */
 }
 
 
 .energy-expenditure p {
-  margin: 0;
+  margin: 0.4rem 0 0.9rem;
   color: #D8D8D8; /* softer than pure white */
 }
 
 
 .summary {
-  background: rgba(76, 175, 80, 0.15); /* soft green tint */
+  background: rgba(76, 175, 80, 0.12);
   border-left: 4px solid #4CAF50;
-  padding: 1rem;
+  padding: 1rem 1.25rem;
   margin: 2rem 0;
-  border-radius: 6px;
+  border-radius: 8px;
   color:  #F2F2F2;
 }
 
