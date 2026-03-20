@@ -170,6 +170,10 @@ ul {
   color: #4CAF50;
 }
 
+.col-text p .underline {
+  font-size: 28px; /* or whatever size you want */
+}
+
 .col-text p {
   line-height: 1.6;
   font-size: 22px;
