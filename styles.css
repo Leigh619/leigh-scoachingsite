@@ -161,6 +161,11 @@ ul {
   border-radius: 8px;
   object-fit: contain;
   display: block;
+  margin-bottom: 20px; 
+}
+
+.col-image img:last-child {
+  margin-bottom: 0;
 }
 
 /* Text styling */
