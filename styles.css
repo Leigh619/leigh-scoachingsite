@@ -202,9 +202,32 @@ ul {
 
 /* Mobile layout */
 @media (max-width: 768px) {
+
   .two-col {
     grid-template-columns: 1fr;
   }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .underline {
+    font-size: 22px;
+  }
+}
+
 
   /* Reset ordering on mobile so content flows naturally */
   .reverse .col-image,
