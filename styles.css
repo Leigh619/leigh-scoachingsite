@@ -152,7 +152,22 @@ ul {
   gap: 40px;
   align-items: center;
   margin: 60px 0;
+  grid-template-areas: "image text";
 }
+
+.col-image {
+  grid-area: image;
+}
+
+
+.col-text {
+  grid-area: text;
+}
+
+.two-col.reverse {
+  grid-template-areas: "text image";
+}
+
 
 /* Image styling */
 
@@ -179,6 +194,7 @@ ul {
 
 .col-text p .underline {
   font-size: 28px; /* or whatever size you want */
+  
 }
 
 .col-text p {
