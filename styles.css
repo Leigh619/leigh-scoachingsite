@@ -155,6 +155,11 @@ ul {
 }
 
 /* Image styling */
+
+.col-image {
+  max-width: 500px;
+}
+
 .col-image img {
   width: 100%;
   height: auto;
