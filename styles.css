@@ -219,23 +219,18 @@ ul {
 
 /* Mobile layout */
 @media (max-width: 768px) {
+ /* Force ALL two-col sections to stack vertically */
   .two-col {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "image"
-      "text";
+    display: block; /* ← this is the magic fix */
   }
-  
+
+  /* Make sure images fill the width */
   .col-image img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* or remove this entirely */
+    object-fit: cover;
   }
-
- .reverse .col-image,
-  .reverse .col-text {
-    order: unset;
-  }
+}
 
   .col-text h1 {
     font-size: 1.9rem;
@@ -256,7 +251,6 @@ ul {
   .underline {
     font-size: 18px;
   }
-}
 
 
 
