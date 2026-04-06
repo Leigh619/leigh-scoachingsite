@@ -221,6 +221,20 @@ ul {
 @media (max-width: 768px) {
   .two-col {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "text";
+  }
+  
+  .col-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* or remove this entirely */
+  }
+
+ .reverse .col-image,
+  .reverse .col-text {
+    order: unset;
   }
 
   .col-text h1 {
