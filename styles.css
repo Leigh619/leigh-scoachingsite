@@ -250,7 +250,7 @@ ul {
   }
 
   .col-text p {
-    font-size: 14px; /* now this will actually apply */
+    font-size: 16px; /* now this will actually apply */
   }
 
   .underline {
