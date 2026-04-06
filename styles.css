@@ -219,31 +219,32 @@ ul {
 
 /* Mobile layout */
 @media (max-width: 768px) {
-
   .two-col {
     grid-template-columns: 1fr;
   }
 
-  h1 {
+  .col-text h1 {
     font-size: 1.9rem;
   }
 
-  h2 {
+  .col-text h2 {
     font-size: 1.6rem;
   }
 
-  h3 {
+  .col-text h3 {
     font-size: 1.3rem;
   }
 
-  p {
-    font-size: 10px;
+  .col-text p {
+    font-size: 14px; /* now this will actually apply */
   }
 
   .underline {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
+
+
 
 
   /* Reset ordering on mobile so content flows naturally */
