@@ -202,6 +202,13 @@ ul {
   color: #FFFFFF;
 }
 
+.col-text li {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #FFFFFF;
+}
+
+
 .caption {
   margin-top: 10px;
   font-size: 0.9rem;
