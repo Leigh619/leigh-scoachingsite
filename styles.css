@@ -185,7 +185,7 @@ ul {
 }
 
 .small-img {
-  height: 70%;   /* or any size you want */
+  max-height: 200px;   /* or any size you want */
 }
 
 /* Text styling */
