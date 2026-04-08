@@ -184,6 +184,10 @@ ul {
   margin-bottom: 0;
 }
 
+.small-img {
+  height: 80%;   /* or any size you want */
+}
+
 /* Text styling */
 .col-text h1,
 .col-text h2,
