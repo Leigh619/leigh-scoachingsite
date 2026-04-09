@@ -193,7 +193,7 @@ ul {
 }
 
 .xsmall-img {
-  max-height: 1000px;
+  max-height: 550px;
   width: auto;        /* stops forced stretching */
   max-width: 100%;    /* still responsive */
   height: auto;
