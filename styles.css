@@ -188,6 +188,10 @@ ul {
   max-height: 600px;   /* or any size you want */
 }
 
+.xsmall.img {
+  max-height: 400px;
+}
+
 /* Text styling */
 .col-text h1,
 .col-text h2,
