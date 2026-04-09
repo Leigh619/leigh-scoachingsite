@@ -189,7 +189,7 @@ ul {
   height: auto;
   width: auto;        /* prevents forced stretching */
   max-width: 100%;    /* still responsive */
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .xsmall-img {
@@ -197,7 +197,7 @@ ul {
   width: auto;        /* stops forced stretching */
   max-width: 100%;    /* still responsive */
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* Text styling */
