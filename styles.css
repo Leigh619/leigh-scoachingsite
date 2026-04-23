@@ -154,7 +154,7 @@ ul {
   margin: 60px 0;
   grid-template-areas: "image text";
   max-width: 1900px;
-  max-height: 1900px;
+  max-height: 700px;
   margin-inline: auto; 
 }
 
