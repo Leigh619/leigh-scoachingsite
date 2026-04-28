@@ -146,12 +146,16 @@ ul {
 }
 
 /* Two-column layout */
-.two-col {
+ .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
   margin: 60px 0;
+  grid-template-areas: "image text";
+  max-width: 1900px;
+  margin-inline: auto; 
+}
 }
 
 
