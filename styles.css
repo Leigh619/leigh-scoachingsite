@@ -152,10 +152,8 @@ ul {
   gap: 40px;
   align-items: center;
   margin: 60px 0;
-  grid-template-areas: "image text";
-  max-width: 1900px;
-  margin-inline: auto; 
 }
+
 
 .col-image {
   grid-area: image;
@@ -175,12 +173,12 @@ ul {
 
 
 .col-image img {
-  width: 100%;
-  height:100%;
+ width: 100%;
   height: auto;
   border-radius: 8px;
   display: block;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
+  object-fit: contain;
 }
 
 .col-image img:last-child {
