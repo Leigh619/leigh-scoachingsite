@@ -7,6 +7,12 @@ body {
   box-sizing: border-box;
 }
 
+:root {
+  --brand-green: #4CAF50;
+  --brand-light: #F2F2F2;
+  --brand-dark: #1A1A1A;
+}
+
 h1,
 h2,
 h3 {
@@ -156,7 +162,7 @@ ul {
   max-width: 1900px;
   margin-inline: auto; 
 }
-}
+
 
 
 .col-image {
@@ -523,13 +529,18 @@ ul {
 
 .main-site-link {
   display: inline-block;
-  margin-top: 1.5rem;
-  color: var(--brand-green);
-  font-weight: 600;
+  padding: 12px 22px;
+  background-color: var(--brand-green);
+  color: #000;
+  font-weight: 700;
+  border-radius: 6px;
   text-decoration: none;
+  margin-top: 2rem;
+  transition: 0.2s ease;
 }
+
 .main-site-link:hover {
-  text-decoration: underline;
+  background-color: #6cff7a;
 }
 
 footer {
