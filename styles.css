@@ -519,3 +519,28 @@ ul {
   align-items: flex-start;  /* center children horizontally */
   gap: 20px;            /* spacing between elements */
 }
+
+./fitbyleigh button./ 
+
+.main-site-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: var(--brand-green);
+  font-weight: 600;
+  text-decoration: none;
+}
+.main-site-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--brand-light);
+  border-top: 1px solid var(--brand-green);
+}
+footer a {
+  color: var(--brand-green);
+  font-weight: 600;
+}
+
