@@ -5,7 +5,6 @@ body {
   background-color: #1A1A1A;
   color: #FFFFFF;
   box-sizing: border-box;
-  height: 100%;
 }
 
 :root {
@@ -119,6 +118,12 @@ ul {
 /* Optional: highlight submenu items on hover */
 .dropdown-content a:hover {
   background-color: #444;
+}
+
+.full-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 
